@@ -41,7 +41,7 @@ export const socialMediaLinks: SocialMedia[] = [
   {
     id: 'facebook',
     name: 'Facebook',
-    url: 'https://facebook.com',
+    url: 'https://www.facebook.com/Maalaxmihomestaysundarban?mibextid=ZbWKwL',
     icon: 'Facebook',
   },
   {
@@ -62,13 +62,20 @@ export const socialMediaLinks: SocialMedia[] = [
     url: 'https://linkedin.com',
     icon: 'LinkedIn',
   },
+  {
+    id: 'digiskyup',
+    name: 'DigiskyUp',
+    url: 'https://digiskyup.com/',
+    icon: 'web',
+  }
 ];
 
 export const footerInfo = {
-  companyName: 'DigiskyUp',
+  companyName: 'MOHAN KUMAR DAS ',
+  companyUrl: 'https://digiskyup.com/',
   tagline: 'Your Travel Partner',
-  copyright: `© ${new Date().getFullYear()} DigiskyUp. All rights reserved.`,
-  address: 'Your Address Here',
+  copyright: `© ${new Date().getFullYear()} Created by<a href="https://digiskyup.com/">DigiskyUp</a>. All rights reserved.`,
+  address: 'Jharkhali , Sardar More, Sundarban , Jharkhali park road , 743312 , Basanti, India, 743312',
   email: 'info@digiskyup.com',
-  phone: '+1 234 567 8900',
+  phone: '9564546823 / 9064483605 ',
 };

@@ -58,7 +58,8 @@ const Footer: React.FC = () => {
             gridTemplateColumns: {
               xs: '1fr',
               sm: 'repeat(2, 1fr)',
-              md: 'repeat(4, 1fr)',
+              md: 'repeat(3, 1fr)',
+              lg: 'repeat(5, 1fr)',
             },
             gap: 4,
           }}
@@ -143,6 +144,28 @@ const Footer: React.FC = () => {
             </Box>
           </Box>
 
+          {/* Google Map */}
+          <Box>
+            <Box
+              sx={{
+                width: '100%',
+                height: '200px',
+                borderRadius: '8px',
+                overflow: 'hidden',
+              }}
+            >
+              <iframe
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902875555556!2d90.36389!3d23.7726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77c6c6c6c6c%3A0x6c6c6c6c6c6c6c6c!2sYour%20Success%20Academy!5e0!3m2!1sen!2sbd!4v1699999999999"
+              />
+            </Box>
+          </Box>
+
         </Box>
 
         <Divider sx={{ my: 3, backgroundColor: 'rgba(255, 255, 255, 0.2)' }} />
@@ -158,7 +181,22 @@ const Footer: React.FC = () => {
           }}
         >
           <Typography variant="body2" align="center">
-            {footerInfo.copyright}
+            © {new Date().getFullYear()} Created by{' '}
+            <MuiLink
+              href={footerInfo.companyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              color="inherit"
+              underline="hover"
+              sx={{
+                '&:hover': {
+                  color: 'secondary.main',
+                },
+              }}
+            >
+              DigiskyUp
+            </MuiLink>
+            . All rights reserved.
           </Typography>
         </Box>
       </Container>

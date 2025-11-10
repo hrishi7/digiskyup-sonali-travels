@@ -1,7 +1,8 @@
 import { Metadata } from 'next';
 import { Box, Container, Typography, Button, Card, CardMedia, CardContent } from '@mui/material';
 import { pageSEO } from '@/config/seo.config';
-import { heroSection, featureCards } from '@/data/homepage';
+import { heroSection, featureCards, whyChooseUs, reviewSection } from '@/data/homepage';
+import ReviewSection from '@/components/ReviewSection';
 
 export const metadata: Metadata = {
   title: pageSEO.home.title,
@@ -251,6 +252,27 @@ export default function Home() {
           </Box>
         </Container>
       </Box>
+
+      {/* Why Choose Us Section */}
+      <Box sx={{ py: 8 }}>
+        <Container maxWidth="lg">
+          <Box sx={{ textAlign: 'center' }}>
+            <Typography variant="h4" sx={{ mb: 2 }}>
+              {whyChooseUs.title}
+            </Typography>
+            <Typography variant="body1" sx={{ mb: 4 }}>
+              {whyChooseUs.description}
+            </Typography>
+          </Box>
+        </Container>
+      </Box>
+
+      {/* Reviews Section */}
+      <ReviewSection
+        title={reviewSection.title}
+        description={reviewSection.description}
+        reviewItems={reviewSection.reviewItems}
+      />
     </Box>
   );
 }

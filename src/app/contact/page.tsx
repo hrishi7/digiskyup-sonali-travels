@@ -5,6 +5,11 @@ import { Phone, Mail, Users, Calendar, Home, Package } from 'lucide-react';
 import { useState } from 'react';
 import { contactPageContent } from '@/data/contact';
 
+// TODO: Add payment qr code
+// TODO: Add payment screenshot
+// TODO: Add payment amounts
+// TODO when click on icon payment screenshot file type input we should see a dialog with scanner
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',
@@ -246,48 +251,6 @@ export default function ContactPage() {
                         }}
                       />
                     </Box>
-
-                    {/* Email Field */}
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                      <Box
-                        sx={{
-                          width: 45,
-                          height: 45,
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          flexShrink: 0,
-                        }}
-                      >
-                        <Mail size={20} color="#333" />
-                      </Box>
-                      <TextField
-                        fullWidth
-                        name="email"
-                        type="email"
-                        placeholder={contactPageContent.form.fields.email}
-                        value={formData.email}
-                        onChange={handleChange}
-                        sx={{
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          '& .MuiOutlinedInput-root': {
-                            '& fieldset': { border: 'none' },
-                            '& input': {
-                              color: '#333',
-                              padding: '12px 14px',
-                            },
-                          },
-                          '& .MuiInputBase-input::placeholder': {
-                            color: '#999',
-                            opacity: 1,
-                          },
-                        }}
-                      />
-                    </Box>
-
                     {/* Phone Field */}
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
                       <Box
@@ -328,87 +291,6 @@ export default function ContactPage() {
                       />
                     </Box>
 
-                    {/* Number of Person Field */}
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                      <Box
-                        sx={{
-                          width: 45,
-                          height: 45,
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          flexShrink: 0,
-                        }}
-                      >
-                        <Users size={20} color="#333" />
-                      </Box>
-                      <TextField
-                        fullWidth
-                        name="numberOfPerson"
-                        placeholder={contactPageContent.form.fields.numberOfPerson}
-                        value={formData.numberOfPerson}
-                        onChange={handleChange}
-                        sx={{
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          '& .MuiOutlinedInput-root': {
-                            '& fieldset': { border: 'none' },
-                            '& input': {
-                              color: '#333',
-                              padding: '12px 14px',
-                            },
-                          },
-                          '& .MuiInputBase-input::placeholder': {
-                            color: '#999',
-                            opacity: 1,
-                          },
-                        }}
-                      />
-                    </Box>
-
-                    {/* Date Field */}
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                      <Box
-                        sx={{
-                          width: 45,
-                          height: 45,
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          flexShrink: 0,
-                        }}
-                      >
-                        <Calendar size={20} color="#333" />
-                      </Box>
-                      <TextField
-                        fullWidth
-                        name="date"
-                        type="date"
-                        placeholder={contactPageContent.form.fields.date}
-                        value={formData.date}
-                        onChange={handleChange}
-                        InputLabelProps={{ shrink: true }}
-                        sx={{
-                          backgroundColor: 'white',
-                          borderRadius: '8px',
-                          '& .MuiOutlinedInput-root': {
-                            '& fieldset': { border: 'none' },
-                            '& input': {
-                              color: '#333',
-                              padding: '12px 14px',
-                            },
-                          },
-                          '& .MuiInputBase-input::placeholder': {
-                            color: '#999',
-                            opacity: 1,
-                          },
-                        }}
-                      />
-                    </Box>
 
                     {/* Package Selector */}
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
@@ -461,6 +343,92 @@ export default function ContactPage() {
                         ))}
                       </TextField>
                     </Box>
+
+                    {/* Date Field */}
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                      <Box
+                        sx={{
+                          width: 45,
+                          height: 45,
+                          backgroundColor: 'white',
+                          borderRadius: '8px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Calendar size={20} color="#333" />
+                      </Box>
+                      <TextField
+                        fullWidth
+                        name="date"
+                        type="date"
+                        placeholder={contactPageContent.form.fields.date}
+                        value={formData.date}
+                        onChange={handleChange}
+                        InputLabelProps={{ shrink: true }}
+                        sx={{
+                          backgroundColor: 'white',
+                          borderRadius: '8px',
+                          '& .MuiOutlinedInput-root': {
+                            '& fieldset': { border: 'none' },
+                            '& input': {
+                              color: '#333',
+                              padding: '12px 14px',
+                            },
+                          },
+                          '& .MuiInputBase-input::placeholder': {
+                            color: '#999',
+                            opacity: 1,
+                          },
+                        }}
+                      />
+                    </Box>
+
+
+
+                    {/* Number of Person Field */}
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                      <Box
+                        sx={{
+                          width: 45,
+                          height: 45,
+                          backgroundColor: 'white',
+                          borderRadius: '8px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Users size={20} color="#333" />
+                      </Box>
+                      <TextField
+                        fullWidth
+                        name="numberOfPerson"
+                        placeholder={contactPageContent.form.fields.numberOfPerson}
+                        value={formData.numberOfPerson}
+                        onChange={handleChange}
+                        sx={{
+                          backgroundColor: 'white',
+                          borderRadius: '8px',
+                          '& .MuiOutlinedInput-root': {
+                            '& fieldset': { border: 'none' },
+                            '& input': {
+                              color: '#333',
+                              padding: '12px 14px',
+                            },
+                          },
+                          '& .MuiInputBase-input::placeholder': {
+                            color: '#999',
+                            opacity: 1,
+                          },
+                        }}
+                      />
+                    </Box>
+
+                    
 
                     {/* Send Button */}
                     <Button

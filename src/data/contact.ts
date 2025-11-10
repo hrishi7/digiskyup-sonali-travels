@@ -13,6 +13,7 @@ export interface ContactPageContent {
       current: string;
     };
   };
+  paymentQrCode: string;
   contactDetails: {
     sectionLabel: string;
     title: string;
@@ -25,11 +26,13 @@ export interface ContactPageContent {
     title: string;
     fields: {
       name: string;
-      email: string;
       phone: string;
       numberOfPerson: string;
       date: string;
       package: string;
+      advancedAmount: number;
+      paymentScreenshot: string;
+
     };
     packageOptions: Array<{ value: string; label: string }>;
     submitButton: string;
@@ -76,11 +79,10 @@ export const contactPageContent: ContactPageContent = {
     title: 'Get Quote',
     fields: {
       name: 'Name',
-      email: 'Email',
       phone: 'Phone Number',
-      numberOfPerson: 'Number of Person',
-      date: 'Date',
       package: 'Select Package',
+      date: 'Date',
+      numberOfPerson: 'Number of Person',
     },
     packageOptions: [
       { value: '', label: 'Select Package' },
