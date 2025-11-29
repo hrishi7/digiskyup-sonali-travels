@@ -85,7 +85,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
       title: 'Sundarban Economical Tour Package',
       description:
         'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
-      price: '₹ 1300 / person',
+      price: '₹ 3500 / person',
       features: [
         { icon: Eye, label: 'Sightseeing' },
         { icon: Ship, label: 'Transportation' },
@@ -98,7 +98,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
         subtitle: 'Sundarban Trip Economical',
         fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
         heroImages: ['/sundarban-hero.jpg'],
-        pricePerHead: '1300',
+        pricePerHead: '3500',
         highlights: [
           'Breakfast To Lunch Food Menu',
           'Jungle Boat Safari',
@@ -198,7 +198,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
       title: 'Sundarban Standard Tour Package',
       description:
         'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
-      price: '₹ 2500 / person',
+      price: '₹ 4200 / person',
       features: [
         { icon: Eye, label: 'Sightseeing' },
         { icon: Ship, label: 'Transportation' },
@@ -211,7 +211,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
         subtitle: 'Sundarban Trip Standard',
         fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
         heroImages: ['/sundarban-hero.jpg'],
-        pricePerHead: '2500',
+        pricePerHead: '4200',
         highlights: [
           'Breakfast To Lunch Food Menu',
           'Jungle Boat Safari',
@@ -311,7 +311,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
       title: 'Sundarban Premium Tour Package',
       description:
         'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
-      price: '₹ 3500 / person',
+      price: '₹ 5000 / person',
       features: [
         { icon: Eye, label: 'Sightseeing' },
         { icon: Ship, label: 'Transportation' },
@@ -324,7 +324,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
         subtitle: 'Sundarban Trip Standard',
         fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
         heroImages: ['/sundarban-hero.jpg'],
-        pricePerHead: '3500',
+        pricePerHead: '5000',
         highlights: [
           'Breakfast To Lunch Food Menu',
           'Jungle Boat Safari',

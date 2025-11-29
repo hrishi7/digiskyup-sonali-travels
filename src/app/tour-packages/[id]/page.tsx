@@ -203,7 +203,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                       mb: 0.5,
                     }}
                   >
-                    {details.pricePerHead} / Person
+                    {details.pricePerHead} / Person [3D, 2N]
                   </Typography>
                 </Box>
 

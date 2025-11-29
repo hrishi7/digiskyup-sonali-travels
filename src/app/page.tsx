@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Box, Container, Typography, Button, Card, CardMedia, CardContent } from '@mui/material';
 import { pageSEO } from '@/config/seo.config';
 import { heroSection, featureCards, whyChooseUs, reviewSection } from '@/data/homepage';
+import { tourPackagesPageContent, TourPackage } from '@/data/tourPackages';
 import ReviewSection from '@/components/ReviewSection';
 import Link from 'next/link';
 
@@ -139,6 +140,170 @@ export default function Home() {
           >
             {heroSection.ctaText}
           </Button></Link>
+        </Container>
+      </Box>
+
+      {/* Tour Packages Section */}
+      <Box sx={{ backgroundColor: 'white', py: 8, mb:20 }}>
+        <Container maxWidth="lg">
+          {/* Section Header */}
+          <Box sx={{ textAlign: 'center', mb: 6 }}>
+            <Typography
+              sx={{
+                color: '#1B4D3E',
+                fontSize: '0.875rem',
+                fontWeight: 600,
+                letterSpacing: '2px',
+                mb: 2,
+              }}
+            >
+              OUR PACKAGES
+            </Typography>
+            
+            <Typography
+              variant="h3"
+              sx={{
+                color: '#1B4D3E',
+                fontWeight: 700,
+                fontSize: { xs: '2rem', md: '2.75rem' },
+                mb: 3,
+              }}
+            >
+              Featured Tour Packages
+            </Typography>
+            
+            <Typography
+              sx={{
+                color: '#666',
+                fontSize: '1rem',
+                lineHeight: 1.8,
+                maxWidth: '900px',
+                margin: '0 auto',
+              }}
+            >
+              Explore our carefully curated tour packages designed to give you an unforgettable Sundarban experience. Choose from our economical, standard, or premium packages to match your preferences.
+            </Typography>
+          </Box>
+
+          {/* Package Cards Grid */}
+          <Box
+            sx={{
+              display: 'grid',
+              gridTemplateColumns: {
+                xs: '1fr',
+                sm: 'repeat(2, 1fr)',
+                md: 'repeat(3, 1fr)',
+              },
+              gap: 4,
+            }}
+          >
+            {tourPackagesPageContent.packages.map((pkg: TourPackage) => (
+              <Box key={pkg.id}>
+                <Box
+                  sx={{
+                    position: 'relative',
+                    borderTopLeftRadius: '16px',
+                    overflow: 'visible',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                    margin: 0,
+                    padding: 0,
+                    '&:hover': {
+                      transform: 'translateY(-8px)',
+                      boxShadow: '0 8px 30px rgba(0,0,0,0.15)',
+                    },
+                  }}
+                >
+                  {/* Price Sticker - Top Right - Overlapping */}
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      top: '-20px',
+                      right: 0,
+                      backgroundColor: '#FF3333',
+                      color: 'white',
+                      padding: '12px 20px',
+                      fontWeight: 700,
+                      fontSize: '1rem',
+                      clipPath: 'polygon(0 0, 100% 0, 100% 100%, 15% 100%)',
+                      minWidth: '160px',
+                      textAlign: 'right',
+                      zIndex: 10,
+                    }}
+                  >
+                    {pkg.price}
+                  </Box>
+
+                  {/* Card Image */}
+                  <Box
+                    sx={{
+                      position: 'relative',
+                      width: '100%',
+                      height: '200px',
+                      backgroundImage: `url(${pkg.image})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat',
+                      borderTopLeftRadius: '24px',
+                      margin: 0,
+                      padding: 0,
+                    }}
+                  />
+
+                  {/* Card Content */}
+                  <Box
+                    sx={{
+                      backgroundColor: '#2C2C2C',
+                      padding: '24px',
+                      borderBottomRightRadius: '16px',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        color: '#FDB714',
+                        fontSize: '1.25rem',
+                        fontWeight: 700,
+                        mb: 2,
+                      }}
+                    >
+                      {pkg.title}
+                    </Typography>
+                    
+                    <Typography
+                      sx={{
+                        color: '#E0E0E0',
+                        fontSize: '0.95rem',
+                        lineHeight: 1.6,
+                        mb: 3,
+                      }}
+                    >
+                      {pkg.description}
+                    </Typography>
+
+                    <Link href={`/tour-packages/${pkg.id}`} style={{ textDecoration: 'none' }}>
+                      <Button
+                        fullWidth
+                        sx={{
+                          backgroundColor: '#666',
+                          color: 'white',
+                          padding: '12px',
+                          fontSize: '1rem',
+                          fontWeight: 600,
+                          borderRadius: '8px',
+                          textTransform: 'none',
+                          '&:hover': {
+                            backgroundColor: '#555',
+                          },
+                        }}
+                      >
+                        Package Details
+                      </Button>
+                    </Link>
+                  </Box>
+                </Box>
+              </Box>
+            ))}
+          </Box>
         </Container>
       </Box>
 

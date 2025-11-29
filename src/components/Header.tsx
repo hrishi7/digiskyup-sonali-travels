@@ -21,6 +21,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -57,7 +58,7 @@ const Header: React.FC = () => {
           p: 2,
         }}
       >
-        <Box sx={{ position: 'relative', width: 120, height: 50 }}>
+        <Box sx={{ position: 'relative', width: 150, height: 65 }}>
           <Image
             src="/logo-preview.png"
             alt="Maa Laxmi Homestay"
@@ -184,8 +185,8 @@ const Header: React.FC = () => {
                 flexGrow: isMobile ? 1 : 1,
                 mr: 4,
                 position: 'relative',
-                // width: { xs: 100, md: 180 },
-                height: { xs: 90, md: 90 },
+                width: { xs: 140, md: 200 },
+                height: { xs: 110, md: 120 },
                 display: 'flex',
                 alignItems: 'center',
               }}
@@ -201,7 +202,7 @@ const Header: React.FC = () => {
 
             {/* Desktop Navigation */}
             {!isMobile && (
-              <Box sx={{ flexGrow: 1, display: 'flex', gap: 1 }}>
+              <Box sx={{ flexGrow: 1, display: 'flex', gap: 1, alignItems: 'center' }}>
                 {navigationItems.map((item) => (
                   <Button
                     key={item.id}
@@ -224,6 +225,45 @@ const Header: React.FC = () => {
                     {item.label}
                   </Button>
                 ))}
+                {/* ISO Certification Tag */}
+                <Box
+                  sx={{
+                    ml: 'auto',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 0.5,
+                    backgroundColor: '#2E8B57',
+                    px: 1.5,
+                    py: 0.5,
+                    borderRadius: 1,
+                    fontSize: '0.75rem',
+                    fontWeight: 500,
+                  }}
+                >
+                  <WorkspacePremiumIcon sx={{ fontSize: '1rem' }} />
+                  <span>ISO 9001:2015 Certified</span>
+                </Box>
+              </Box>
+            )}
+
+            {/* Mobile ISO Tag */}
+            {isMobile && (
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 0.5,
+                  backgroundColor: '#2E8B57',
+                  px: 1,
+                  py: 0.4,
+                  borderRadius: 1,
+                  fontSize: '0.65rem',
+                  fontWeight: 500,
+                  mr: 1,
+                }}
+              >
+                <WorkspacePremiumIcon sx={{ fontSize: '0.85rem' }} />
+                <span>ISO 9001:2015</span>
               </Box>
             )}
 

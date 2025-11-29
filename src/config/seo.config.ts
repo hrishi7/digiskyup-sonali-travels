@@ -1,26 +1,26 @@
 import { DefaultSeoProps } from 'next-seo';
 
 export const defaultSEO: DefaultSeoProps = {
-  titleTemplate: '%s | DigiskyUp',
-  defaultTitle: 'DigiskyUp - Your Travel Partner',
-  description: 'Explore amazing tour packages and destinations with DigiskyUp',
+  titleTemplate: '%s | Maa Laxmi homestay',
+  defaultTitle: 'Maa Laxmi homestay - Your Travel Partner',
+  description: 'Explore amazing tour packages and destinations with Maa Laxmi homestay',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.digiskyup.com/',
-    siteName: 'DigiskyUp',
+    url: 'https://www.Maa Laxmi homestay.com/',
+    siteName: 'Maa Laxmi homestay',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'DigiskyUp',
+        alt: 'Maa Laxmi homestay',
       },
     ],
   },
   twitter: {
-    handle: '@digiskyup',
-    site: '@digiskyup',
+    handle: '@Maa Laxmi homestay',
+    site: '@Maa Laxmi homestay',
     cardType: 'summary_large_image',
   },
   additionalMetaTags: [
@@ -38,11 +38,11 @@ export const defaultSEO: DefaultSeoProps = {
 export const pageSEO = {
   home: {
     title: 'Home',
-    description: 'Welcome to DigiskyUp - Your trusted travel partner for unforgettable journeys',
+    description: 'Welcome to Maa Laxmi homestay - Your trusted travel partner for unforgettable journeys',
   },
   about: {
     title: 'About Us',
-    description: 'Learn more about DigiskyUp and our commitment to providing exceptional travel experiences',
+    description: 'Learn more about Maa Laxmi homestay and our commitment to providing exceptional travel experiences',
   },
   tourPackages: {
     title: 'Tour Packages',

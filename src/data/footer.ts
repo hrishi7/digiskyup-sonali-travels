@@ -66,9 +66,9 @@ export const socialMediaLinks: SocialMedia[] = [
 
 export const footerInfo = {
   companyName: 'MOHAN KUMAR DAS ',
-  companyUrl: 'https://digiskyup.com/',
+  companyUrl: 'https://Maa Laxmi homestay.com/',
   tagline: 'Your Travel Partner',
-  copyright: `© ${new Date().getFullYear()} Created by<a href="https://digiskyup.com/">DigiskyUp</a>. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} Created by<a href="https://Maa Laxmi homestay.com/">Maa Laxmi homestay</a>. All rights reserved.`,
   address: 'Jharkhali , Sardar More, Sundarban , Jharkhali park road , 743312 , Basanti, India, 743312',
   email: 'mohandas7176@gmail.com ',
   phone: '9564546823 / 9064483605 ',

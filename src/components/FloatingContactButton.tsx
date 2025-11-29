@@ -85,6 +85,15 @@ const FloatingContactButton: React.FC<FloatingContactButtonProps> = ({
             },
             transition: 'all 0.3s ease',
             boxShadow: '0 4px 20px rgba(10, 95, 78, 0.4)',
+            '@keyframes boom': {
+              '0%, 100%': {
+                transform: 'scale(1)',
+              },
+              '50%': {
+                transform: 'scale(1.15)',
+              },
+            },
+            animation: 'boom 1.5s ease-in-out infinite',
           }}
         >
           <PhoneIcon sx={{ fontSize: { xs: 28, md: 32 } }} />

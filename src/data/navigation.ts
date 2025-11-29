@@ -25,15 +25,21 @@ export const navigationItems: NavigationItem[] = [
     order: 3,
   },
   {
+    id: 'booking',
+    label: 'Booking',
+    path: '/booking',
+    order: 4,
+  },
+  {
     id: 'gallery',
     label: 'Gallery',
     path: '/gallery',
-    order: 4,
+    order: 5,
   },
   {
     id: 'contact',
     label: 'Contact Us',
     path: '/contact',
-    order: 5,
+    order: 6,
   },
 ];

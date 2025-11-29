@@ -4,10 +4,10 @@ import ThemeRegistry from "@/theme/ThemeRegistry";
 import Layout from "@/components/Layout";
 
 export const metadata: Metadata = {
-  title: "DigiskyUp - Your Travel Partner",
-  description: "Explore amazing tour packages and destinations with DigiskyUp",
+  title: "Maa Laxmi homestay - Your Travel Partner",
+  description: "Explore amazing tour packages and destinations with Maa Laxmi homestay",
   keywords: ["travel", "tours", "packages", "vacation", "holiday", "destinations"],
-  authors: [{ name: "DigiskyUp" }],
+  authors: [{ name: "Maa Laxmi homestay" }],
 };
 
 export const viewport: Viewport = {

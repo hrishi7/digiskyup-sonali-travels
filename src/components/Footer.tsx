@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
             <Box sx={{ mb: 2 }}>
               <Image
                 src="/logo-preview.png"
-                alt="DigiskyUp Logo"
+                alt="Maa Laxmi homestay Logo"
                 width={150}
                 height={50}
                 style={{ objectFit: 'contain' }}
@@ -204,7 +204,7 @@ const Footer: React.FC = () => {
                 },
               }}
             >
-              DigiskyUp
+              DigiSkyUp
             </MuiLink>
             . All rights reserved.
           </Typography>
