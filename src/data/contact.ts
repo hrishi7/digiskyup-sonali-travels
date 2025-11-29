@@ -76,7 +76,7 @@ export const contactPageContent: ContactPageContent = {
       },
     ],
   },
-  paymentQrCode: "https://ik.imagekit.io/Maa Laxmi homestay/payment_1762973671573_WhatsApp_Image_2025-11-10_at_20.16.35_I0Bj89fps.jpeg",
+  paymentQrCode: "https://ik.imagekit.io/digiskyup/payment_1762973671573_WhatsApp_Image_2025-11-10_at_20.16.35_I0Bj89fps.jpeg",
   form: {
     title: 'Book Your Package',
     fields: {
