@@ -69,7 +69,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                 {/* Bottom Content - Dark Section with Logo and Description */}
                 <Box
                   sx={{
-                    backgroundColor: '#1B4D3E',
+                    backgroundColor: '#1976D2',
                     borderRadius: '8px',
                     p: 3,
                     position: 'relative',
@@ -116,7 +116,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
               </Box>
@@ -126,7 +126,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
             <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 33.33%' } }}>
               <Box
                 sx={{
-                  backgroundColor: '#1B4D3E',
+                  backgroundColor: '#1976D2',
                   borderRadius: '16px',
                   overflow: 'hidden',
                   boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
@@ -156,7 +156,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                 {/* Header */}
                 <Box
                   sx={{
-                    backgroundColor: '#1B4D3E',
+                    backgroundColor: '#1976D2',
                     pt: 5,
                     pb: 2,
                     px: 3,
@@ -283,7 +283,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                 <Box
                   key={dayIndex}
                   sx={{
-                    backgroundColor: '#1B4D3E',
+                    backgroundColor: '#1976D2',
                     borderRadius: '16px',
                     p: 4,
                     mb: 4,
@@ -299,7 +299,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                       left: 0,
                       right: 0,
                       height: '10px',
-                      background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                      background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                     }}
                   />
 
@@ -359,7 +359,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                       left: 0,
                       right: 0,
                       height: '10px',
-                      background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)',
+                      background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)',
                     }}
                   />
                 </Box>
@@ -379,7 +379,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
             <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 66.66%' } }}>
               <Box
                 sx={{
-                  backgroundColor: '#1B4D3E',
+                  backgroundColor: '#1976D2',
                   borderRadius: '16px',
                   p: 4,
                   position: 'relative',
@@ -394,7 +394,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
 
@@ -453,7 +453,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
               </Box>
@@ -472,7 +472,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
             <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 66.66%' } }}>
               <Box
                 sx={{
-                  backgroundColor: '#1B4D3E',
+                  backgroundColor: '#1976D2',
                   borderRadius: '16px',
                   p: 4,
                   position: 'relative',
@@ -487,7 +487,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
 
@@ -563,7 +563,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
               </Box>
@@ -582,7 +582,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
             <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 66.66%' } }}>
               <Box
                 sx={{
-                  backgroundColor: '#1B4D3E',
+                  backgroundColor: '#1976D2',
                   borderRadius: '16px',
                   p: 4,
                   position: 'relative',
@@ -597,7 +597,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
 
@@ -655,7 +655,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                     left: 0,
                     right: 0,
                     height: '10px',
-                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1B4D3E 5px, #1B4D3E 2px)'
+                    background: 'repeating-linear-gradient(45deg, #8BC34A, #8BC34A 1px, #1976D2 5px, #1976D2 2px)'
                   }}
                 />
               </Box>

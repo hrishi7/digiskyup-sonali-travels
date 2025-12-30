@@ -309,7 +309,7 @@ export default function ContactPage() {
             <Box sx={{ flex: 1 }}>
               <Typography
                 sx={{
-                  color: '#1B4D3E',
+                  color: '#1976D2',
                   fontSize: '0.875rem',
                   fontWeight: 600,
                   letterSpacing: '2px',
@@ -322,7 +322,7 @@ export default function ContactPage() {
               <Typography
                 variant="h3"
                 sx={{
-                  color: '#1B4D3E',
+                  color: '#1976D2',
                   fontWeight: 700,
                   fontSize: { xs: '2rem', md: '2.75rem' },
                   mb: 3,
@@ -343,7 +343,7 @@ export default function ContactPage() {
               </Typography>
               
               <Typography sx={{ color: '#666', mb: 1 }}>
-                <span style={{ color: '#8BC34A', fontWeight: 600 }}>{contactPageContent.contactDetails.officeLabel}</span> : {contactPageContent.contactDetails.officeAddress}
+                <span style={{ color: '#1976D2', fontWeight: 600 }}>{contactPageContent.contactDetails.officeLabel}</span> : {contactPageContent.contactDetails.officeAddress}
               </Typography>
 
               {/* Contact Boxes */}
@@ -352,7 +352,7 @@ export default function ContactPage() {
                   <Box
                     key={contact.id}
                     sx={{
-                      border: '2px dashed #8BC34A',
+                      border: '2px dashed #1976D2',
                       borderRadius: '8px',
                       padding: '20px 24px',
                       display: 'flex',
@@ -365,7 +365,7 @@ export default function ContactPage() {
                         width: 50,
                         height: 50,
                         borderRadius: '50%',
-                        border: '3px solid #1B4D3E',
+                        border: '3px solid #1976D2',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -373,13 +373,13 @@ export default function ContactPage() {
                       }}
                     >
                       {contact.type === 'phone' ? (
-                        <Phone size={24} color="#1B4D3E" />
+                        <Phone size={24} color="#1976D2" />
                       ) : (
-                        <Mail size={24} color="#1B4D3E" />
+                        <Mail size={24} color="#1976D2" />
                       )}
                     </Box>
                     <Box>
-                      <Typography sx={{ color: '#1B4D3E', fontWeight: 600, fontSize: '1rem' }}>
+                      <Typography sx={{ color: '#1976D2', fontWeight: 600, fontSize: '1rem' }}>
                         {contact.label}
                       </Typography>
                       <Typography sx={{ color: '#FDB714', fontWeight: 700, fontSize: '1.1rem' }}>
@@ -529,7 +529,7 @@ export default function ContactPage() {
                         sx={{
                           width: 45,
                           height: 45,
-                          backgroundColor: '#2C5F4F',
+                          backgroundColor: '#1976D2',
                           borderRadius: '8px',
                           display: 'flex',
                           alignItems: 'center',
@@ -755,7 +755,7 @@ export default function ContactPage() {
                         onDragLeave={handleDragLeave}
                         onDrop={handleDrop}
                         sx={{
-                          border: `2px dashed ${errors.paymentScreenshot ? '#f44336' : isDragging ? '#4CAF50' : '#8BC34A'}`,
+                          border: `2px dashed ${errors.paymentScreenshot ? '#f44336' : isDragging ? '#4CAF50' : '#1976D2'}`,
                           borderRadius: '12px',
                           padding: imagePreview ? '0' : '40px 20px',
                           backgroundColor: isDragging ? '#f1f8e9' : 'white',
@@ -775,7 +775,7 @@ export default function ContactPage() {
                       >
                         {!imagePreview ? (
                           <>
-                            <Upload size={40} color="#8BC34A" />
+                            <Upload size={40} color="#1976D2" />
                             <Typography
                               sx={{
                                 mt: 2,
@@ -907,7 +907,7 @@ export default function ContactPage() {
                       <Box sx={{ flex: 1 }}>
                         <Typography
                           sx={{
-                            color: '#2C5F4F',
+                            color: '#1976D2',
                             fontWeight: 600,
                             fontSize: '1.1rem',
                             mb: 1.5,

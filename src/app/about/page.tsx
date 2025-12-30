@@ -129,7 +129,7 @@ export default function AboutPage() {
           {/* About Us Label */}
           <Typography
             sx={{
-              color: '#1B4D3E',
+              color: '#1976D2',
               fontSize: '0.875rem',
               fontWeight: 600,
               letterSpacing: '2px',

@@ -104,7 +104,7 @@ const Header: React.FC = () => {
       {/* Top Contact Strip */}
       <Box
         sx={{
-          backgroundColor: '#1B4D3E',
+          backgroundColor: '#1565C0',
           color: 'white',
           py: 1,
           borderBottom: '1px solid rgba(255, 255, 255, 0.1)',

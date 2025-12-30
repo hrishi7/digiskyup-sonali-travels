@@ -73,7 +73,7 @@ export default function TourPackagesPage() {
           <Box sx={{ textAlign: 'center', mb: 6 }}>
             <Typography
               sx={{
-                color: '#1B4D3E',
+                color: '#1976D2',
                 fontSize: '0.875rem',
                 fontWeight: 600,
                 letterSpacing: '2px',
@@ -86,7 +86,7 @@ export default function TourPackagesPage() {
             <Typography
               variant="h3"
               sx={{
-                color: '#1B4D3E',
+                color: '#1976D2',
                 fontWeight: 700,
                 fontSize: { xs: '2rem', md: '2.75rem' },
                 mb: 3,

@@ -251,7 +251,7 @@ export default function ContactPage() {
             <Box sx={{ flex: 1 }}>
               <Typography
                 sx={{
-                  color: '#1B4D3E',
+                  color: '#1976D2',
                   fontSize: '0.875rem',
                   fontWeight: 600,
                   letterSpacing: '2px',
@@ -264,7 +264,7 @@ export default function ContactPage() {
               <Typography
                 variant="h3"
                 sx={{
-                  color: '#1B4D3E',
+                  color: '#1976D2',
                   fontWeight: 700,
                   fontSize: { xs: '2rem', md: '2.75rem' },
                   mb: 3,
@@ -307,7 +307,7 @@ export default function ContactPage() {
                         width: 50,
                         height: 50,
                         borderRadius: '50%',
-                        border: '3px solid #1B4D3E',
+                        border: '3px solid #1976D2',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -315,13 +315,13 @@ export default function ContactPage() {
                       }}
                     >
                       {contact.type === 'phone' ? (
-                        <Phone size={24} color="#1B4D3E" />
+                        <Phone size={24} color="#1976D2" />
                       ) : (
-                        <Mail size={24} color="#1B4D3E" />
+                        <Mail size={24} color="#1976D2" />
                       )}
                     </Box>
                     <Box>
-                      <Typography sx={{ color: '#1B4D3E', fontWeight: 600, fontSize: '1rem' }}>
+                      <Typography sx={{ color: '#1976D2', fontWeight: 600, fontSize: '1rem' }}>
                         {contact.label}
                       </Typography>
                       <Typography sx={{ color: '#FDB714', fontWeight: 700, fontSize: '1.1rem' }}>
@@ -471,7 +471,7 @@ export default function ContactPage() {
                         sx={{
                           width: 45,
                           height: 45,
-                          backgroundColor: '#2C5F4F',
+                          backgroundColor: '#1976D2',
                           borderRadius: '8px',
                           display: 'flex',
                           alignItems: 'center',

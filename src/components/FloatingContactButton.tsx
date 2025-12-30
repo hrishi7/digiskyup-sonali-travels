@@ -76,11 +76,11 @@ const FloatingContactButton: React.FC<FloatingContactButtonProps> = ({
             bottom: { xs: 24, md: 32 },
             left: { xs: 16, md: 32 },
             zIndex: 1000,
-            backgroundColor: '#0A5F4E',
+            backgroundColor: '#1976D2',
             width: { xs: 56, md: 64 },
             height: { xs: 56, md: 64 },
             '&:hover': {
-              backgroundColor: '#084538',
+              backgroundColor: '#1565C0',
               transform: 'scale(1.1)',
             },
             transition: 'all 0.3s ease',
