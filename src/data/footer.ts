@@ -41,7 +41,7 @@ export const socialMediaLinks: SocialMedia[] = [
   {
     id: 'facebook',
     name: 'Facebook',
-    url: 'https://www.facebook.com/Maalaxmihomestaysundarban?mibextid=ZbWKwL',
+    url: 'https://www.facebook.com/share/17cxppswUh/',
     icon: 'Facebook',
   },
   {
@@ -65,11 +65,11 @@ export const socialMediaLinks: SocialMedia[] = [
 ];
 
 export const footerInfo = {
-  companyName: 'MOHAN KUMAR DAS ',
-  companyUrl: 'https://Maa Laxmi homestay.com/',
+  companyName: 'Bablu haldar ',
+  companyUrl: 'https://sonalitourandtravels.com/',
   tagline: 'Your Travel Partner',
-  copyright: `© ${new Date().getFullYear()} Created by<a href="https://Maa Laxmi homestay.com/">Maa Laxmi homestay</a>. All rights reserved.`,
-  address: 'Jharkhali , Sardar More, Sundarban , Jharkhali park road , 743312 , Basanti, India, 743312',
-  email: 'mohandas7176@gmail.com ',
-  phone: '9564546823 / 9064483605 ',
+  copyright: `© ${new Date().getFullYear()} Created by<a href="https://sonalitourandtravels.com/">Sonali Tour & Travels</a>. All rights reserved.`,
+  address: 'Canning Railway New Market , Canning Town, India, 743329',
+  email: 'babluhalder8520@gmail.com',
+  phone: '9614731529 / 9609691144',
 };

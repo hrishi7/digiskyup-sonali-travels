@@ -3,7 +3,7 @@ export const heroSection = {
   headline: 'Experience Nature Like Never Before',
   description:
     "Nestled in the heart of one of the world's most breathtaking UNESCO World Heritage Sites, our exclusive tour packages offer a unique opportunity to explore the lush mangroves, diverse wildlife, and vibrant culture of the Sundarbans.",
-  ctaText: 'Explore Sundarbans with Maa Laxmi Homestay',
+  ctaText: 'Explore Sundarbans with Sonali Tour & Travels',
   videoUrl: '/footage-homepage.mp4',
 };
 
@@ -51,8 +51,8 @@ export const featureCards: FeatureCard[] = [
 ];
 
 export const whyChooseUs = {
-  title: 'Why choose Maalaxmi Homestay?',
-  description: 'Because at Maalaxmi Homestay you’re not just booking a room — you’re stepping into an experience where heart-felt hospitality, natural beauty and comfort come together. Nestled in a serene location, our homestay offers you: Warm, personal care like family, where every guest is treated with respect and genuine attention.A peaceful retreat away from the city’s hustle—wake up to birdsong, breathe fresh air, and unwind.Beautifully maintained accommodation with modern comfort in a clean, safe and welcoming environment.Locally inspired cuisine, fresh ingredients and the chance to taste authentic flavours you won’t get anywhere else.A base from which to explore nearby attractions, relax in tranquillity and create unforgettable memories.In short: We believe your stay should feel effortless, memorable and positive—and at Maalaxmi Homestay, that’s exactly what we deliver.',
+  title: 'Why choose Sonali Tour & Travels?',
+  description: 'Because at Sonali Tour & Travels you’re not just booking a room — you’re stepping into an experience where heart-felt hospitality, natural beauty and comfort come together. Nestled in a serene location, our homestay offers you: Warm, personal care like family, where every guest is treated with respect and genuine attention.A peaceful retreat away from the city’s hustle—wake up to birdsong, breathe fresh air, and unwind.Beautifully maintained accommodation with modern comfort in a clean, safe and welcoming environment.Locally inspired cuisine, fresh ingredients and the chance to taste authentic flavours you won’t get anywhere else.A base from which to explore nearby attractions, relax in tranquillity and create unforgettable memories.In short: We believe your stay should feel effortless, memorable and positive—and at Sonali Tour & Travels, that’s exactly what we deliver.',
 };
 export interface ReviewItem {
   id: number;
@@ -92,7 +92,7 @@ export const reviewSection = {
       id: 4,
       name: 'Arjun Sen',
       rating: 4,
-      review: 'We enjoyed both — the beauty of Sundarban and the comfort of Maalaxmi Homestay. Truly a memorable experience!',
+      review: 'We enjoyed both — the beauty of Sundarban and the comfort of Sonali Tour & Travels. Truly a memorable experience!',
       imageUrl: '/reviews.jpg'
     },
     {

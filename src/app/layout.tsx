@@ -4,10 +4,10 @@ import ThemeRegistry from "@/theme/ThemeRegistry";
 import Layout from "@/components/Layout";
 
 export const metadata: Metadata = {
-  title: "Maa Laxmi homestay - Your Travel Partner",
-  description: "Explore amazing tour packages and destinations with Maa Laxmi homestay",
+  title: "Sonali Tour & Travels - Your Travel Partner",
+  description: "Explore amazing tour packages and destinations with Sonali Tour & Travels",
   keywords: ["travel", "tours", "packages", "vacation", "holiday", "destinations"],
-  authors: [{ name: "Maa Laxmi homestay" }],
+  authors: [{ name: "Sonali Tour & Travels" }],
 };
 
 export const viewport: Viewport = {

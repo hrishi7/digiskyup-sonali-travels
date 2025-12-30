@@ -1,26 +1,26 @@
 import { DefaultSeoProps } from 'next-seo';
 
 export const defaultSEO: DefaultSeoProps = {
-  titleTemplate: '%s | Maa Laxmi homestay',
-  defaultTitle: 'Maa Laxmi homestay - Your Travel Partner',
-  description: 'Explore amazing tour packages and destinations with Maa Laxmi homestay',
+  titleTemplate: '%s | Sonali Tour & Travels',
+  defaultTitle: 'Sonali Tour & Travels - Your Travel Partner',
+  description: 'Explore amazing tour packages and destinations with Sonali Tour & Travels',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.Maa Laxmi homestay.com/',
-    siteName: 'Maa Laxmi homestay',
+    url: 'https://www.sonalitourandtravels.com/',
+    siteName: 'Sonali Tour & Travels',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Maa Laxmi homestay',
+        alt: 'Sonali Tour & Travels',
       },
     ],
   },
   twitter: {
-    handle: '@Maa Laxmi homestay',
-    site: '@Maa Laxmi homestay',
+    handle: '@Sonali Tour & Travels',
+    site: '@Sonali Tour & Travels',
     cardType: 'summary_large_image',
   },
   additionalMetaTags: [
@@ -38,11 +38,11 @@ export const defaultSEO: DefaultSeoProps = {
 export const pageSEO = {
   home: {
     title: 'Home',
-    description: 'Welcome to Maa Laxmi homestay - Your trusted travel partner for unforgettable journeys',
+    description: 'Welcome to Sonali Tour & Travels - Your trusted travel partner for unforgettable journeys',
   },
   about: {
     title: 'About Us',
-    description: 'Learn more about Maa Laxmi homestay and our commitment to providing exceptional travel experiences',
+    description: 'Learn more about Sonali Tour & Travels and our commitment to providing exceptional travel experiences',
   },
   tourPackages: {
     title: 'Tour Packages',

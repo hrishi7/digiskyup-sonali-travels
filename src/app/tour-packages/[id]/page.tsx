@@ -87,7 +87,7 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                   >
                     <Box
                       component="img"
-                      src="/logo-preview.png"
+                      src="/logo-preview.jpeg"
                       alt="Sundarban Logo"
                       sx={{
                         height: '50px',

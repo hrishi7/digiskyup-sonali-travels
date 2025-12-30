@@ -54,25 +54,25 @@ export const contactPageContent: ContactPageContent = {
     description:
       'For inquiries or to book your unforgettable Sundarbans adventure, please reach out to us using the following contact information:',
     officeLabel: 'Office',
-    officeAddress: 'Jharkhali , Sardar More, Sundarban , Jharkhali park road , 743312 , Basanti, India, 743312',
+    officeAddress: 'Canning Railway New Market , Canning Town, India, 743329',
     contactBoxes: [
       {
         id: 'phone1',
         type: 'phone',
-        label: 'Contact No 1 | Call Now 24 x 7',
-        value: '+919564546823',
+        label: 'Booking Number',
+        value: '+919614731529',
       },
       {
         id: 'phone2',
         type: 'phone',
-        label: 'Contact No 2 | Call Now 24 x 7',
-        value: '+919064483605',
+        label: 'WhatsApp Number',
+        value: '+919609691144',
       },
       {
         id: 'email',
         type: 'email',
         label: 'Email Us',
-        value: 'mohandas7176@gmail.com ',
+        value: 'babluhalder8520@gmail.com',
       },
     ],
   },

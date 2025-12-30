@@ -166,7 +166,7 @@ export default function ContactPage() {
       (imageUrl ? `📸 *Payment Proof:* ${imageUrl}` : `📸 *Payment Screenshot:* ${formData.paymentScreenshot}\n\n_Note: Payment screenshot will be sent separately_`);
 
     // Get the primary contact number from contact data
-    const whatsappNumber = '919564546823'; // From contactPageContent
+    const whatsappNumber = '919614731529'; // From contactPageContent
     
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);

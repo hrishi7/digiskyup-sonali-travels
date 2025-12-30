@@ -69,8 +69,8 @@ const Footer: React.FC = () => {
           <Box>
             <Box sx={{ mb: 2 }}>
               <Image
-                src="/logo-preview.png"
-                alt="Maa Laxmi homestay Logo"
+                src="/logo-preview.jpeg"
+                alt="Sonali Tour & Travels Logo"
                 width={150}
                 height={50}
                 style={{ objectFit: 'contain' }}

@@ -61,7 +61,7 @@ const Header: React.FC = () => {
         <Box sx={{ position: 'relative', width: 150, height: 65 }}>
           <Image
             src="/logo-preview.png"
-            alt="Maa Laxmi Homestay"
+            alt="Sonali Tour & Travels"
             fill
             style={{ objectFit: 'contain' }}
             priority
@@ -130,13 +130,13 @@ const Header: React.FC = () => {
               }}
             >
               <LocationOnIcon sx={{ fontSize: { xs: '1rem', md: '1.25rem' } }} />
-              <span>Jharkhali, Sundarban</span>
+              <span>Canning, Sundarban</span>
             </Box>
 
             {/* Email */}
             <Box
               component="a"
-              href="mailto:mohandas7176@gmail.com "
+              href="mailto:babluhalder8520@gmail.com"
               sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -149,13 +149,13 @@ const Header: React.FC = () => {
               }}
             >
               <EmailIcon sx={{ fontSize: { xs: '1rem', md: '1.25rem' } }} />
-              <span>mohandas7176@gmail.com </span>
+              <span>babluhalder8520@gmail.com</span>
             </Box>
 
             {/* Phone */}
             <Box
               component="a"
-              href="tel:+919564546823"
+              href="tel:+919614731529"
               sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -168,7 +168,7 @@ const Header: React.FC = () => {
               }}
             >
               <PhoneIcon sx={{ fontSize: { xs: '1rem', md: '1.25rem' } }} />
-              <span>+91 9564546823</span>
+              <span>+91 9614731529</span>
             </Box>
           </Box>
         </Container>
@@ -192,8 +192,8 @@ const Header: React.FC = () => {
               }}
             >
               <Image
-                src="/logo-preview.png"
-                alt="Maa Laxmi Homestay"
+                src="/logo-preview.jpeg"
+                alt="Sonali Tour & Travels"
                 fill
                 style={{ objectFit: 'contain' }}
                 priority
