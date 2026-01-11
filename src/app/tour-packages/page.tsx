@@ -36,6 +36,7 @@ export default function TourPackagesPage() {
           variant="h2"
           component="h1"
           sx={{
+            textAlign: 'center',
             color: 'white',
             fontWeight: 700,
             fontSize: { xs: '2.5rem', md: '3.5rem' },

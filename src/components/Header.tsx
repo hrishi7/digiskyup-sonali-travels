@@ -58,9 +58,16 @@ const Header: React.FC = () => {
           p: 2,
         }}
       >
-        <Box sx={{ position: 'relative', width: 150, height: 65 }}>
+        <Box sx={{ 
+          position: 'relative', 
+          width: 60, 
+          height: 60,
+          backgroundColor: 'white',
+          borderRadius: '50%',
+          overflow: 'hidden'
+        }}>
           <Image
-                  src="/sonali-logo.png"
+            src="/sonali-logo.png"
             alt="Sonali Tour & Travels"
             fill
             style={{ objectFit: 'contain' }}
@@ -174,35 +181,44 @@ const Header: React.FC = () => {
         </Container>
       </Box>
 
-      <AppBar position="sticky" sx={{ backgroundColor: 'primary.main' }}>
+      <AppBar position="sticky" sx={{ backgroundColor: 'primary.main', paddingY: 0.8 }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            {/* Logo */}
-            <Box
-              component={Link}
-              href="/"
-              sx={{
-                flexGrow: isMobile ? 1 : 1,
-                mr: 4,
-                position: 'relative',
-                width: { xs: 140, md: 200 },
-                height: { xs: 110, md: 120 },
-                display: 'flex',
-                alignItems: 'center',
-              }}
-            >
-              <Image
-                      src="/sonali-logo.png"
-                alt="Sonali Tour & Travels"
-                fill
-                style={{ objectFit: 'contain' }}
-                priority
-              />
-            </Box>
+              <Box
+                component={Link}
+                href="/"
+                sx={{
+                  flexGrow: isMobile ? 1 : 0,
+                  mr: 4,
+                  display: 'flex',
+                  alignItems: 'center',
+                  textDecoration: 'none',
+                }}
+              >
+                <Box
+                  sx={{
+                    position: 'relative',
+                    width: { xs: 80, md: 80 },
+                    height: { xs: 80, md: 80 },
+                    backgroundColor: 'white',
+                    borderRadius: '50%',
+                    overflow: 'hidden',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Image
+                    src="/sonali-logo.png"
+                    alt="Sonali Tour & Travels"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    priority
+                  />
+                </Box>
+              </Box>
 
             {/* Desktop Navigation */}
             {!isMobile && (
-              <Box sx={{ flexGrow: 1, display: 'flex', gap: 1, alignItems: 'center' }}>
+              <Box sx={{ flexGrow: 1, display: 'flex', gap: 1, alignItems: 'center', justifyContent: 'center' }}>
                 {navigationItems.map((item) => (
                   <Button
                     key={item.id}
@@ -225,27 +241,6 @@ const Header: React.FC = () => {
                     {item.label}
                   </Button>
                 ))}
-              </Box>
-            )}
-
-            {/* Mobile ISO Tag */}
-            {isMobile && (
-              <Box
-                sx={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 0.5,
-                  backgroundColor: '#2E8B57',
-                  px: 1,
-                  py: 0.4,
-                  borderRadius: 1,
-                  fontSize: '0.65rem',
-                  fontWeight: 500,
-                  mr: 1,
-                }}
-              >
-                <WorkspacePremiumIcon sx={{ fontSize: '0.85rem' }} />
-                <span>ISO 9001:2015</span>
               </Box>
             )}
 

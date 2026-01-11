@@ -44,23 +44,23 @@ export const socialMediaLinks: SocialMedia[] = [
     url: 'https://www.facebook.com/share/17cxppswUh/',
     icon: 'Facebook',
   },
-  {
-    id: 'twitter',
-    name: 'Twitter',
-    url: 'https://twitter.com',
-    icon: 'Twitter',
-  },
+  // {
+  //   id: 'twitter',
+  //   name: 'Twitter',
+  //   url: 'https://twitter.com',
+  //   icon: 'Twitter',
+  // },
   {
     id: 'instagram',
     name: 'Instagram',
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/sunalitourtravelssunderban?igsh=b2p3YjhwcTlweHJo',
     icon: 'Instagram',
   },
   {
-    id: 'linkedin',
-    name: 'LinkedIn',
-    url: 'https://linkedin.com',
-    icon: 'LinkedIn',
+    id: 'youtube',
+    name: 'Youtube',
+    url: 'https://youtube.com/@sonalitourtravelssunderban?si=HqV9aiflKzGBLDjv',
+    icon: 'Youtube',
   }
 ];
 

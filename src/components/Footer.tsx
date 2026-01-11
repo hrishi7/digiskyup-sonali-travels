@@ -15,6 +15,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -36,6 +37,8 @@ const Footer: React.FC = () => {
         return <InstagramIcon />;
       case 'LinkedIn':
         return <LinkedInIcon />;
+      case 'Youtube':
+        return <YouTubeIcon />;
       default:
         return null;
     }
@@ -67,12 +70,22 @@ const Footer: React.FC = () => {
         >
           {/* Social Media */}
           <Box>
-            <Box sx={{ mb: 2 }}>
+            <Box sx={{ 
+              mb: 2, 
+              width: 80, 
+              height: 80, 
+              backgroundColor: 'white', 
+              borderRadius: '50%', 
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              overflow: 'hidden'
+            }}>
               <Image
                 src="/sonali-logo.png"
                 alt="Sonali Tour & Travels Logo"
-                width={150}
-                height={50}
+                width={80}
+                height={80}
                 style={{ objectFit: 'contain' }}
               />
             </Box>
@@ -171,9 +184,9 @@ const Footer: React.FC = () => {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902875555556!2d90.36389!3d23.7726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77c6c6c6c6c%3A0x6c6c6c6c6c6c6c6c!2sYour%20Success%20Academy!5e0!3m2!1sen!2sbd!4v1699999999999"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.202413124183!2d88.65791739143538!3d22.31201186871227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02199c88241c65%3A0x5e39198bcc45bf13!2srailway%20new%20market!5e0!3m2!1sen!2sus!4v1768156127120!5m2!1sen!2sus"
               />
-            </Box>
+            </Box>   
           </Box>
 
         </Box>

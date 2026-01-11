@@ -81,30 +81,12 @@ export default function PackageDetailsPage() {
                   sx={{
                     backgroundColor: '#37474F',
                     borderRadius: '8px',
-                    p: 3,
+                    p: 0.8,
                     position: 'relative',
                     zIndex: 1,
-                    opacity: 0.9,
+                    opacity: 0.7,
                   }}
                 >
-                  {/* Logo */}
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      mb: 2,
-                    }}
-                  >
-                    <Box
-                      component="img"
-                      src="/sonali-logo.png"
-                      alt="Sonali Tour & Travels Logo"
-                      sx={{
-                        height: '50px',
-                        width: 'auto',
-                      }}
-                    />
-                  </Box>
 
                   <Typography
                     sx={{
@@ -213,7 +195,7 @@ export default function PackageDetailsPage() {
                       mb: 0.5,
                     }}
                   >
-                    {details.pricePerHead} / Person [3D, 2N]
+                    {details.pricePerHead} / Person [2N, 3D]
                   </Typography>
                 </Box>
 
