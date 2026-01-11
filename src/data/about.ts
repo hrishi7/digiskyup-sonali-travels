@@ -44,13 +44,13 @@ export const aboutPageContent: AboutPageContent = {
   postcards: [
     {
       id: '1',
-      image: '/reviews.jpg',
+      image: '/gall-19.jpeg',
       alt: 'Sundarban Tour Group Photo',
       rotation: -24,
     },
     {
       id: '2',
-      image: '/accomoddation.jpg',
+      image: '/gall-3.jpeg',
       alt: 'Sundarban Accommodation',
       rotation: 24,
     },
@@ -66,9 +66,9 @@ export const aboutPageContent: AboutPageContent = {
     title: 'Sonali Tour & Travels',
     titleHighlight: 'Sonali Tour & Travels',
     paragraphs: [
-      'is a leading tour operator based in Canning, specializing in providing the best',
-      '. With years of experience and expertise in the field, we have established ourselves as a reliable and reputable name in the tourism industry. Our team comprises passionate travelers, nature enthusiasts, and expert professionals who are dedicated to creating unforgettable experiences for our clients.',
-      'We understand that visiting Sundarbans is not just about ticking off another destination on your travel list, but it\'s an opportunity to immerse yourself in the beauty and diversity of this unique ecosystem. This is why we strive to provide our clients with personalized and tailor-made tour packages that cater to their individual interests and preferences.',
+      'is your premier gateway to the wild mangroves, rooted in Canning and dedicated to curating the finest',
+      '. We are more than just a travel agency; we are storytellers of the jungle. Our team of local experts and passionate naturalists ensures that every journey into the mystic heart of the mangroves is safe, comfortable, and truly mesmerizing. We pride ourselves on our deep local knowledge and commitment to sustainable tourism.',
+      'Exploring the Sundarbans is a journey into a world where land and water dance in harmony. Beyond mere sightseeing, we offer an immersive experience that connects you with the raw beauty of this UNESCO World Heritage Site. From thrilling boat safaris to serene nature walks, our personalized packages are designed to create memories that last a lifetime.',
     ],
     highlightText: 'Sonali Tour & Travels',
     highlightBold: 'Sundarban tour packages',

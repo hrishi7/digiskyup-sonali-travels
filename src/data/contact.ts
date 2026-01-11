@@ -76,7 +76,7 @@ export const contactPageContent: ContactPageContent = {
       },
     ],
   },
-  paymentQrCode: "https://ik.imagekit.io/digiskyup/payment_1762973671573_WhatsApp_Image_2025-11-10_at_20.16.35_I0Bj89fps.jpeg",
+  paymentQrCode: "https://ik.imagekit.io/p1xvnl9zi/WhatsApp%20Image%202026-01-11%20at%2019.32.47.jpeg",
   form: {
     title: 'Book Your Package',
     fields: {

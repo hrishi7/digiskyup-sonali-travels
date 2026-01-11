@@ -4,11 +4,21 @@ import { Box, Container, Typography, Button } from '@mui/material';
 import { CheckCircle } from 'lucide-react';
 import { tourPackagesPageContent } from '@/data/tourPackages';
 import { contactPageContent } from '@/data/contact';
-import { notFound } from 'next/navigation';
+import { notFound, useParams } from 'next/navigation';
 import Link from 'next/link';
+import { use, useEffect, useState } from 'react';
 
-export default function PackageDetailsPage({ params }: { params: { id: string } }) {
-  const packageId = parseInt(params.id);
+export default function PackageDetailsPage() {
+  const params = useParams();
+  
+  // Handle case where params might not be available immediately or is empty
+  const id = params?.id;
+  
+  if (!id) {
+    return null; 
+  }
+
+  const packageId = parseInt(Array.isArray(id) ? id[0] : id);
   const packageData = tourPackagesPageContent.packages.find(pkg => pkg.id === packageId);
 
   if (!packageData || !packageData.details) {
@@ -69,12 +79,12 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                 {/* Bottom Content - Dark Section with Logo and Description */}
                 <Box
                   sx={{
-                    backgroundColor: '#1976D2',
+                    backgroundColor: '#37474F',
                     borderRadius: '8px',
                     p: 3,
                     position: 'relative',
                     zIndex: 1,
-                    opacity: 0.85,
+                    opacity: 0.9,
                   }}
                 >
                   {/* Logo */}
@@ -87,8 +97,8 @@ export default function PackageDetailsPage({ params }: { params: { id: string } 
                   >
                     <Box
                       component="img"
-                      src="/logo-preview.jpeg"
-                      alt="Sundarban Logo"
+                      src="/sonali-logo.png"
+                      alt="Sonali Tour & Travels Logo"
                       sx={{
                         height: '50px',
                         width: 'auto',

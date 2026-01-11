@@ -1,8 +1,8 @@
 export const heroSection = {
-  companyName: 'SUNDARBAN HOLIDAY TRIP',
-  headline: 'Experience Nature Like Never Before',
+  companyName: 'SONALI TOUR & TRAVELS',
+  headline: 'Unveil the Mystic Beauty of the Mangroves',
   description:
-    "Nestled in the heart of one of the world's most breathtaking UNESCO World Heritage Sites, our exclusive tour packages offer a unique opportunity to explore the lush mangroves, diverse wildlife, and vibrant culture of the Sundarbans.",
+    "Journey into the heart of the Sundarbans with us. Where the tiger roars and the river whispers, we craft experiences that blend adventure, comfort, and the raw magic of nature.",
   ctaText: 'Explore Sundarbans with Sonali Tour & Travels',
   videoUrl: '/footage-homepage.mp4',
 };
@@ -18,41 +18,41 @@ export interface FeatureCard {
 export const featureCards: FeatureCard[] = [
   {
     id: 1,
-    image: '/transport.webp',
+    image: '/transport.jpeg',
     icon: '🚢',
     title: 'Safe Transportation',
     description:
-      'Travel worry-free with our well-maintained vehicles and licensed boat services ensuring your complete safety.',
+      'Voyage in safety and style aboard our private fleet. From land to water, we ensure your passage is as smooth as the rivers we navigate.',
   },
   {
     id: 2,
-    image: '/food.jpg',
+    image: '/food.jpeg',
     icon: '🍽️',
     title: 'Delicious Food',
     description:
-      'Enjoy freshly prepared local and multi-cuisine meals made with love, served hot during your entire journey.',
+      'Savor the taste of Bengal. Our onboard chefs prepare authentic local delicacies and multi-cuisine favorites, turning every meal into a feast.',
   },
   {
     id: 3,
-    image: '/accomoddation.jpg',
+    image: '/accomodation.jpeg',
     icon: '🏨',
     title: 'Luxury Accommodation',
     description:
-      'Enjoy a relaxing stay in our hand-picked luxury accommodations, where comfort meets the beauty of nature. Each location is designed for unforgettable experiences and breathtaking views.',
+      'Rest in the lap of nature without compromising on comfort. Our curated stays offer serene views and modern amenities, ensuring your nights are as peaceful as the forest.',
   },
   {
     id: 4,
-    image: '/reviews.jpg',
+    image: '/gall-5.jpeg',
     icon: '⭐',
     title: '400 + reviews',
     description:
-      'Trusted by hundreds of travelers — read over 400 positive reviews that speak for our quality service and memorable experiences.',
+      'Join a community of happy explorers. With over 400 5-star experiences, our reputation is built on trust, transparency, and unforgettable memories.',
   },
 ];
 
 export const whyChooseUs = {
   title: 'Why choose Sonali Tour & Travels?',
-  description: 'Because at Sonali Tour & Travels you’re not just booking a room — you’re stepping into an experience where heart-felt hospitality, natural beauty and comfort come together. Nestled in a serene location, our homestay offers you: Warm, personal care like family, where every guest is treated with respect and genuine attention.A peaceful retreat away from the city’s hustle—wake up to birdsong, breathe fresh air, and unwind.Beautifully maintained accommodation with modern comfort in a clean, safe and welcoming environment.Locally inspired cuisine, fresh ingredients and the chance to taste authentic flavours you won’t get anywhere else.A base from which to explore nearby attractions, relax in tranquillity and create unforgettable memories.In short: We believe your stay should feel effortless, memorable and positive—and at Sonali Tour & Travels, that’s exactly what we deliver.',
+  description: 'At Sonali Tour & Travels, we don\'t just guide you; we host you. We believe in "Atithi Devo Bhava"—Guest is God. Our deep roots in Canning and the Sundarbans allow us to offer you secrets of the forest that others miss. From the moment you arrive until you wave goodbye, experience personalized care, expert guidance, and the warmth of true hospitality. We ensure your adventure is safe, your stay is comfortable, and your memories are timeless.',
 };
 export interface ReviewItem {
   id: number;
@@ -65,7 +65,7 @@ export interface ReviewItem {
 export const reviewSection = {
   title: 'What Our Customers Say',
   description:
-    'Experience the best of nature with our exclusive tour packages. Nestled in the heart of one of the world\'s most breathtaking UNESCO World Heritage Sites, our tour packages offer a unique opportunity to explore the lush mangroves, diverse wildlife, and vibrant culture of the Sundarbans.',
+    'Don\'t just take our word for it. Hear from those who have ventured into the wild with us and returned with stories to tell.',
   reviewItems: [  
     {
       id: 1,

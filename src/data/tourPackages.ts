@@ -65,356 +65,327 @@ export interface TourPackagesPageContent {
 
 export const tourPackagesPageContent: TourPackagesPageContent = {
   hero: {
-    title: 'Sundarban Tour Packages',
+    title: 'Curated Jungle Expeditions',
     breadcrumb: {
       home: 'Home',
-      current: 'Sundarban Tour Packages',
+      current: 'Tour Packages',
     },
   },
   packagesSection: {
     sectionLabel: 'OUR PACKAGES',
-    title: 'Sundarban Tour Packages',
+    title: 'Choose Your Adventure',
     description:
-      'At {highlight}, we provide exciting tour packages that let you explore the stunning Sundarbans. Enjoy wildlife safaris, peaceful boat rides, and comfortable stays while tasting delicious local food. Our flexible options are perfect for everyone, ensuring you have a memorable adventure tailored just for you!',
-    highlightText: 'Sundarban Holiday Trip',
+      'Step into the wild with {highlight}. Whether you seek a quick escape or an immersive retreat, our itineraries are thoughtfully designed to showcase the very best of the mangrove forest. From spotting the elusive Royal Bengal Tiger to savoring the silence of the creeks, choose the journey that calls to you.',
+    highlightText: 'Sonali Tour & Travels',
   },
   packages: [
     {
       id: 1,
-      image: '/economic.webp',
-      title: 'Sundarban Economical Tour Package',
+      image: '/economic.png',
+      title: 'Sundarban Economical Package',
       description:
-        'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
+        'An affordable gateway to adventure. Perfect for budget travelers who want to experience the raw beauty of the Sundarbans without compromising on the essential thrills.',
       price: '₹ 3500 / person',
       features: [
         { icon: Eye, label: 'Sightseeing' },
         { icon: Ship, label: 'Transportation' },
-        { icon: Hotel, label: 'Hotel' },
-        { icon: Utensils, label: 'Meal' },
+        { icon: Hotel, label: 'Cottage Stay' },
+        { icon: Utensils, label: 'Home Meals' },
         { icon: Anchor, label: 'Boat Safari' },
         { icon: Eye, label: 'Adventure' },
       ],
       details: {
-        subtitle: 'Sundarban Trip Economical',
-        fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
+        subtitle: 'Essential Sundarban Experience',
+        fullDescription: 'Discover the wild spirit of the Sundarbans on a budget. This package covers all the key highlights—thrilling boat safaris, jungle walks, and iconic watchtowers—ensuring you don’t miss out on the adventure. Stay in clean, comfortable cottages and enjoy home-cooked Bengali meals as you immerse yourself in the local culture.',
         heroImages: ['/sundarban-hero.jpg'],
         pricePerHead: '3500',
         highlights: [
-          'Breakfast To Lunch Food Menu',
-          'Jungle Boat Safari',
-          'Jungle Permission',
-          'Professional tour Guide',
-          'Camp Fire'
+          'Authentic Bengali Cuisine (Breakfast to Dinner)',
+          'Guided Jungle Boat Safari',
+          'Forest Entry Permissions Included',
+          'Experienced Local Tour Guide',
+          'Evening Campfire & Folk Tales'
         ],
         itinerary: [
           {
             day: 'Day 1',
-            title: 'Sundarban 1 Day',
+            title: 'Welcome to the Jungle',
             items: [
               {
                 time: '',
-                description: 'Visit Jharkhali Park, local zoo & nearby sightseeing spots.'
+                description: 'Arrival at Godkhali/Sonakhali and transfer to our boat. Pass through the confluence of rivers to reach the eco-village. Evening visit to Jharkhali Park and local sightseeing.'
               },
-              
             ]
           },
           {
             day: 'Day 2',
-            title: 'Sundarban 2 Day',
+            title: 'Into the Wild',
             items: [
               {
                 time: '',
-                description: 'Explore Dobaki, Pir Khali, Gazikhali, Bonbibi Bharani, Deul Bharani, Panchamukhani, and return to Jharkhali for night stay (Hotel / Boat)'
+                description: 'Full day safari through the dense mangroves. Explore Dobanki Watch Tower (Canopy Walk), Pirkhali, Gazikhali, and the Five River Checkpoint (Panchamukhani). Keep your eyes peeled for wildlife!'
               },
-              
             ]
           },
           {
             day: 'Day 3',
-            title: 'Sundarban 3 Day',
+            title: 'Village Life & Departure',
             items: [
               {
                 time: '',
-                description: 'Cruise through Bidyadhari River, visit Gosaba, Rabindranath’s Beacon Bungalow, Hamilton Bungalow, Pakhir Jungle, Pakhiralay, and return to Jharkhali.(Optional: Boni Camp, Suryamoni Jungle, Parshemari Canal)'
+                description: 'Morning cruise through the Bidyadhari River. Visit the historic Hamilton Bungalow and Beacon Bungalow in Gosaba. Immerse yourself in the local village life before the return journey.'
               },
-              
             ]
-          }
+          },
         ],
         includes: [
-          'Evening Entertainment & Cultural Delight',
-         'Experience the rhythm of Bengal under the stars!',
-         'Traditional Tribal Dance & soulful Baul Music performances',
-         'Campfire Nights filled with fun, music, and togetherness',
-         'Enjoy authentic rural vibes and unforgettable moments'
+          'Cultural Evening: Tribal Dance & Baul Music',
+          'All meals included (Bed tea to Dinner)',
+          'Accommodation in Standard Cottages',
+          'Boat permits and Forest Entry Fees',
+          'Dedicated Tour Manager throughout the trip'
         ],
         menuDetails: [
           {
             day: 'Day 1 – Traditional Welcome Meal',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Aloo Curry, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Fish Pakora / Veg Pakora, Tea or Coffee' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Mixed Curry, Vetki Fish Curry, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Chicken Pakora, Tea or Coffee' },
-              { mealType: 'Dinner :-', items: 'Jeera Rice, Mutton Curry, Salad' }
+              { mealType: 'Breakfast', items: 'Luchi, Aloo Dum, Boiled Egg, Sweets, Tea' },
+              { mealType: 'Snacks', items: 'Vegetable/Fish Pakora, Tea/Coffee' },
+              { mealType: 'Lunch', items: 'Steamed Rice, Dal, Bhaja, Vegetable Curry, Vetki Fish Curry, Chutney, Papad' },
+              { mealType: 'Evening', items: 'Chicken/Veg Pakora, Tea/Coffee' },
+              { mealType: 'Dinner', items: 'Jeera Rice, Mutton/Chicken Curry, Salad' }
             ]
           },
           {
-            day: '🍱 Day 2 – Flavors of the Delta',
+            day: 'Day 2 – Flavors of the Delta',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'Puri, Sabji, Boiled Egg, Tea' },
+              { mealType: 'Snacks', items: 'Biscuits, Tea/Coffee' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Local Crab/Prawn Curry (Seasonal), Fish Kalia, Chutney' },
+              { mealType: 'Evening', items: 'Chowmein, Coffee' },
+              { mealType: 'Dinner', items: 'Fried Rice, Chilli Chicken, Salad' }
             ]
           },
           {
-            day: '🥗 Day 3 – Farewell Feast',
+            day: 'Day 3 – Farewell Feast',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'Paratha, Sabji, Sweet, Tea' },
+              { mealType: 'Snacks', items: 'Light Snacks, Tea' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Doi Katla (Curd Fish), Chutney, Papad' },
+              { mealType: 'Evening', items: 'High Tea with Biscuits' },
+              { mealType: 'Dinner', items: 'N/A (Tour ends)' }
             ]
           }
         ],
         thingsToCarry: [
-          'Pack specific medicines for any personal health needs.',
-          'Ensure you carry a valid photo ID for travel purposes.',
-          'Foreign visitors must have their original passports on hand.',
-          'Equip yourself with a camera or binoculars for capturing distant wildlife and landscapes.',
-          'Travel light with easily portable baggage.',
-          'Opt for comfortable footwear suitable for exploration.',
-          'Shield yourself from the sun with sunglasses, a hat cap, and sunscreen during your Sundarban adventure.',
-          'It\'s advisable to carry cash, as accessing ATMs may be limited. Note that an SBI ATM is available in Gosaba.'
+          'Personal medications and insect repellent.',
+          'Original Government ID proof (Aadhar/Voter ID/Passport).',
+          'Camera and binoculars for wildlife viewing.',
+          'Comfortable cotton clothes and walking shoes.',
+          'Sunscreen, sunglasses, and a hat.',
+          'Cash for small personal expenses (ATMs are scarce).'
         ]
       }
     },
     {
       id: 2,
-      image: '/standard.webp',
-      title: 'Sundarban Standard Tour Package',
+      image: '/standard.png',
+      title: 'Sundarban Standard Package',
       description:
-        'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
+        'The perfect balance of comfort and exploration. flexible itineraries and upgraded stays make this our most popular choice for families and couples.',
       price: '₹ 4200 / person',
       features: [
         { icon: Eye, label: 'Sightseeing' },
         { icon: Ship, label: 'Transportation' },
-        { icon: Hotel, label: 'Hotel' },
-        { icon: Utensils, label: 'Meal' },
+        { icon: Hotel, label: 'Deluxe Hotel' },
+        { icon: Utensils, label: 'Buffet Meals' },
         { icon: Anchor, label: 'Boat Safari' },
         { icon: Eye, label: 'Adventure' },
       ],
       details: {
-        subtitle: 'Sundarban Trip Standard',
-        fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
+        subtitle: 'Comfort & Adventure Combined',
+        fullDescription: 'Elevate your experience with our Standard Package. Enjoy the perfect blend of adventure and relaxation with upgraded accommodations and a more leisurely pace. From sunset cruises to cultural evenings with folk music, this tour offers a comprehensive glimpse into life in the delta, complete with personalized care and enhanced amenities.',
         heroImages: ['/sundarban-hero.jpg'],
         pricePerHead: '4200',
         highlights: [
-          'Breakfast To Lunch Food Menu',
-          'Jungle Boat Safari',
-          'Jungle Permission',
-          'Professional tour Guide',
-          'Camp Fire'
+          'Deluxe AC/Non-AC Accommodation',
+          'Extended Boat Safari Routes',
+          'Cultural Program & Bonfire',
+          'Guided Village Walks',
+          'All-Inclusive Meals'
         ],
         itinerary: [
           {
             day: 'Day 1',
-            title: 'Sundarban 1 Day',
+            title: 'Arrival & Sunset Cruise',
             items: [
               {
                 time: '',
-                description: 'Visit Jharkhali Park, local zoo & nearby sightseeing spots.'
+                description: 'Pick up and transfer to the boat. Relaxed cruise through the creeks to witness the mesmerizing sunset. Check-in to hotel and enjoy a cultural program in the evening.'
               },
-              
             ]
           },
           {
             day: 'Day 2',
-            title: 'Sundarban 2 Day',
+            title: 'Core Jungle Safari',
             items: [
               {
                 time: '',
-                description: 'Explore Dobaki, Pir Khali, Gazikhali, Bonbibi Bharani, Deul Bharani, Panchamukhani, and return to Jharkhali for night stay (Hotel / Boat)'
+                description: 'We venture deeper into the forest today. Visit Sudhanyakhali Watch Tower for tiger spotting, followed by a cruise through narrow creeks like Bonbibi Bharani. Experience the silent thrill of the mangroves.'
               },
-              
             ]
           },
           {
             day: 'Day 3',
-            title: 'Sundarban 3 Day',
+            title: 'Island Hopping',
             items: [
               {
                 time: '',
-                description: 'Cruise through Bidyadhari River, visit Gosaba, Rabindranath’s Beacon Bungalow, Hamilton Bungalow, Pakhir Jungle, Pakhiralay, and return to Jharkhali.(Optional: Boni Camp, Suryamoni Jungle, Parshemari Canal)'
+                description: 'Explore the local islands, visit the bird sanctuary, and interact with the local communities at Gosaba before heading back.'
               },
-              
             ]
           }
         ],
         includes: [
-          'Evening Entertainment & Cultural Delight',
-         'Experience the rhythm of Bengal under the stars!',
-         'Traditional Tribal Dance & soulful Baul Music performances',
-         'Campfire Nights filled with fun, music, and togetherness',
-         'Enjoy authentic rural vibes and unforgettable moments'
+          'Evening Folk Culture Program (Jhumur/Baul)',
+          'All meals (Buffet style)',
+          'Accommodation in Deluxe Rooms',
+          'All Entry Fees and Permits',
+          'Private Boat for sightings (if group size permits)'
         ],
         menuDetails: [
           {
-            day: 'Day 1 – Traditional Welcome Meal',
+            day: 'Day 1',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Aloo Curry, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Fish Pakora / Veg Pakora, Tea or Coffee' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Mixed Curry, Vetki Fish Curry, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Chicken Pakora, Tea or Coffee' },
-              { mealType: 'Dinner :-', items: 'Jeera Rice, Mutton Curry, Salad' }
+              { mealType: 'Breakfast', items: 'Luchi/Kachori, Alur Dom, Sweet, Tea' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Vetki Curry, Prawn Malai Curry, Salad' },
+              { mealType: 'Dinner', items: 'Fried Rice, Chicken Kasha, Salad, Sweet' }
             ]
           },
           {
-            day: '🍱 Day 2 – Flavors of the Delta',
+            day: 'Day 2',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'Nan/Paratha, Chana Masala, Egg' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Mixed Veg, Local Fish Curry, Crab Masala' },
+              { mealType: 'Dinner', items: 'Roti/Rice, Mutton Kosha, Salad' }
             ]
           },
           {
-            day: '🥗 Day 3 – Farewell Feast',
+            day: 'Day 3',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'Bread Butter/Toast, Omelette, Fruits' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Fish Curry, Chutney, Papad' },
+              { mealType: 'Dinner', items: 'N/A' }
             ]
           }
         ],
         thingsToCarry: [
-          'Pack specific medicines for any personal health needs.',
-          'Ensure you carry a valid photo ID for travel purposes.',
-          'Foreign visitors must have their original passports on hand.',
-          'Equip yourself with a camera or binoculars for capturing distant wildlife and landscapes.',
-          'Travel light with easily portable baggage.',
-          'Opt for comfortable footwear suitable for exploration.',
-          'Shield yourself from the sun with sunglasses, a hat cap, and sunscreen during your Sundarban adventure.',
-          'It\'s advisable to carry cash, as accessing ATMs may be limited. Note that an SBI ATM is available in Gosaba.'
+          'Personal medications.',
+          'Valid Photo ID.',
+          'Camera/Binoculars.',
+          'Light woolen clothes (in winter) and cottons (in summer).',
+          'Power bank and torch.'
         ]
       }
     },
      {
       id: 3,
-      image: '/premium.webp',
-      title: 'Sundarban Premium Tour Package',
+      image: '/premium.png',
+      title: 'Sundarban Premium Package',
       description:
-        'Experience the beauty of the Sundarbans in a single day with thrilling wildlife sightings, scenic boat rides, and a taste of local cuisine.',
+        'Luxury in the lap of nature. Indulge in premium amenities, exclusive boat services, and gourmet dining for an unforgettable forest retreat.',
       price: '₹ 5000 / person',
       features: [
-        { icon: Eye, label: 'Sightseeing' },
-        { icon: Ship, label: 'Transportation' },
-        { icon: Hotel, label: 'Hotel' },
-        { icon: Utensils, label: 'Meal' },
-        { icon: Anchor, label: 'Boat Safari' },
-        { icon: Eye, label: 'Adventure' },
+        { icon: Eye, label: 'Exclusive Sightseeing' },
+        { icon: Ship, label: 'Luxury Cruise' },
+        { icon: Hotel, label: 'Luxury Resort' },
+        { icon: Utensils, label: 'Gourmet Meals' },
+        { icon: Anchor, label: 'Private Safari' },
+        { icon: Eye, label: 'Premium Service' },
       ],
       details: {
-        subtitle: 'Sundarban Trip Standard',
-        fullDescription: 'Delve into the mystique of the Sundarbans with our bespoke 1 Night, 2 Days sojourn. Plunge deep into the bosom of Mother Nature, relishing exhilarating nautical safaris, and recline in intimate lodgings for an enduring escapade.',
+        subtitle: 'The Ultimate Sundarban Luxury',
+        fullDescription: 'Experience the Sundarbans in unparalleled style. Our Premium Package is designed for the discerning traveler, offering luxury resort stays, exclusive private boats, and gourmet culinary experiences. Let us pamper you with exceptional service while you witness the majestic wildlife and serene landscapes in absolute comfort.',
         heroImages: ['/sundarban-hero.jpg'],
         pricePerHead: '5000',
         highlights: [
-          'Breakfast To Lunch Food Menu',
-          'Jungle Boat Safari',
-          'Jungle Permission',
-          'Professional tour Guide',
-          'Camp Fire'
+          'Premium AC Resort/Hotel Stay',
+          'Exclusive Private Boat for Safari',
+          'Special Gala Dinner',
+          'Dedicated Naturalist Guide',
+          'Customizable Itinerary'
         ],
         itinerary: [
           {
             day: 'Day 1',
-            title: 'Sundarban 1 Day',
+            title: 'Welcome to Luxury',
             items: [
               {
                 time: '',
-                description: 'Visit Jharkhali Park, local zoo & nearby sightseeing spots.'
+                description: 'Private transfer to our premium boat. Enjoy welcome drinks and a curated lunch on board. Sunset cruise to the resort. Evening private bonfire and cultural show.'
               },
-              
             ]
           },
           {
             day: 'Day 2',
-            title: 'Sundarban 2 Day',
+            title: 'Exclusive Safari',
             items: [
               {
                 time: '',
-                description: 'Explore Dobaki, Pir Khali, Gazikhali, Bonbibi Bharani, Deul Bharani, Panchamukhani, and return to Jharkhali for night stay (Hotel / Boat)'
+                description: 'A private safari experience. Visit Netidhopani Watch Tower (subject to permission) which has a 300-year-old temple legend. Enjoy a quiet lunch in the middle of the river.'
               },
-              
             ]
           },
           {
             day: 'Day 3',
-            title: 'Sundarban 3 Day',
+            title: 'Leisure & History',
             items: [
               {
                 time: '',
-                description: 'Cruise through Bidyadhari River, visit Gosaba, Rabindranath’s Beacon Bungalow, Hamilton Bungalow, Pakhir Jungle, Pakhiralay, and return to Jharkhali.(Optional: Boni Camp, Suryamoni Jungle, Parshemari Canal)'
+                description: 'Relaxed morning at the resort. Visit the Hamilton Estate and learn about the colonial history of the Gosaba region. Departure with a special souvenir.'
               },
-              
             ]
           }
         ],
         includes: [
-          'Evening Entertainment & Cultural Delight',
-         'Experience the rhythm of Bengal under the stars!',
-         'Traditional Tribal Dance & soulful Baul Music performances',
-         'Campfire Nights filled with fun, music, and togetherness',
-         'Enjoy authentic rural vibes and unforgettable moments'
+          'Live BBQ & Gala Dinner',
+          'All Gourmet Meals',
+          'Premium AC Accommodation',
+          'Exclusive Boat & Guide',
+          'All Permits & Priority Access'
         ],
         menuDetails: [
           {
-            day: 'Day 1 – Traditional Welcome Meal',
+            day: 'Day 1',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Aloo Curry, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Fish Pakora / Veg Pakora, Tea or Coffee' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Mixed Curry, Vetki Fish Curry, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Chicken Pakora, Tea or Coffee' },
-              { mealType: 'Dinner :-', items: 'Jeera Rice, Mutton Curry, Salad' }
+              { mealType: 'Welcome', items: 'Coconut Water, Welcome Drink' },
+              { mealType: 'Lunch', items: 'Basmati Rice, Dal, Jhuri Aloo Bhaja, Golda Chingri (Lobster) Malai Curry, Vetki Paturi' },
+              { mealType: 'Dinner', items: 'Chicken/Mutton Biryani, Raita, Salad, Firni' }
             ]
           },
           {
-            day: '🍱 Day 2 – Flavors of the Delta',
+            day: 'Day 2',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'English Breakfast Platter / Indian Combo' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Crab Masala, Local Fish Fry, Parshe Fish Jhal' },
+              { mealType: 'Dinner', items: 'BBQ Chicken/Paneer, Fried Rice, Chilli Fish' }
             ]
           },
           {
-            day: '🥗 Day 3 – Farewell Feast',
+            day: 'Day 3',
             meals: [
-              { mealType: 'Breakfast :-', items: 'Luchi, Chana Masala, Boiled Egg, Tea' },
-              { mealType: 'Snacks :-', items: 'Pakora / Chips, Tea' },
-              { mealType: 'Lunch :-', items: 'Rice, Dal, Fried Veg, Chingri Malai Curry, Rui / Katla Kalia, Chutney, Papad' },
-              { mealType: 'Evening :-', items: 'Mixed Chowmein, Coffee' },
-              { mealType: 'Dinner :-', items: 'Fried Rice, Chicken Kosha, Salad' }
+              { mealType: 'Breakfast', items: 'Dosa/Idli or Puri Sabji, Sweets' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Mutton Kosha, Chutney, Papad, Doi' },
+              { mealType: 'Dinner', items: 'Packed Snacks for journey' }
             ]
           }
         ],
         thingsToCarry: [
-          'Pack specific medicines for any personal health needs.',
-          'Ensure you carry a valid photo ID for travel purposes.',
-          'Foreign visitors must have their original passports on hand.',
-          'Equip yourself with a camera or binoculars for capturing distant wildlife and landscapes.',
-          'Travel light with easily portable baggage.',
-          'Opt for comfortable footwear suitable for exploration.',
-          'Shield yourself from the sun with sunglasses, a hat cap, and sunscreen during your Sundarban adventure.',
-          'It\'s advisable to carry cash, as accessing ATMs may be limited. Note that an SBI ATM is available in Gosaba.'
+          'Personal medication.',
+          'Valid ID Proof.',
+          'Camera.',
+          'Comfortable attire.',
+          'Your sense of adventure!'
         ]
       }
     },

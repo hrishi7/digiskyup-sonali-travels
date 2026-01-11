@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
           <Box>
             <Box sx={{ mb: 2 }}>
               <Image
-                src="/logo-preview.jpeg"
+                src="/sonali-logo.png"
                 alt="Sonali Tour & Travels Logo"
                 width={150}
                 height={50}

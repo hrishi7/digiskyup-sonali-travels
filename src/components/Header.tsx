@@ -60,7 +60,7 @@ const Header: React.FC = () => {
       >
         <Box sx={{ position: 'relative', width: 150, height: 65 }}>
           <Image
-            src="/logo-preview.png"
+                  src="/sonali-logo.png"
             alt="Sonali Tour & Travels"
             fill
             style={{ objectFit: 'contain' }}
@@ -192,7 +192,7 @@ const Header: React.FC = () => {
               }}
             >
               <Image
-                src="/logo-preview.jpeg"
+                      src="/sonali-logo.png"
                 alt="Sonali Tour & Travels"
                 fill
                 style={{ objectFit: 'contain' }}
@@ -225,24 +225,6 @@ const Header: React.FC = () => {
                     {item.label}
                   </Button>
                 ))}
-                {/* ISO Certification Tag */}
-                <Box
-                  sx={{
-                    ml: 'auto',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 0.5,
-                    backgroundColor: '#2E8B57',
-                    px: 1.5,
-                    py: 0.5,
-                    borderRadius: 1,
-                    fontSize: '0.75rem',
-                    fontWeight: 500,
-                  }}
-                >
-                  <WorkspacePremiumIcon sx={{ fontSize: '1rem' }} />
-                  <span>ISO 9001:2015 Certified</span>
-                </Box>
               </Box>
             )}
 

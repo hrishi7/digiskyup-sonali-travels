@@ -13,7 +13,7 @@ export default function TourPackagesPage() {
         sx={{
           position: 'relative',
           height: '400px',
-          backgroundImage: 'url(/contactUs.jpg)',
+          backgroundImage: 'url(/contactUs.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',

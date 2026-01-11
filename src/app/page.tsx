@@ -326,6 +326,7 @@ export default function Home() {
                 md: 'repeat(2, 1fr)',
                 lg: 'repeat(4, 1fr)',
               },
+              paddingTop: '2rem',
               gap: { xs: 3, sm: 4, md: 4 },
             }}
           >
