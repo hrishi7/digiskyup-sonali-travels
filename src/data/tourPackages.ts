@@ -113,7 +113,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
             items: [
               {
                 time: '',
-                description: 'Arrival at Godkhali/Sonakhali and transfer to our boat. Pass through the confluence of rivers to reach the eco-village. Evening visit to Jharkhali Park and local sightseeing.'
+                description: 'Canning → Sonakhali → Gosaba → Rabindranath Tagore Bungalow → Hamilton Bungalow → Bird Jungle → Overnight stay at hotel in Pakhiralay/Dayapur.'
               },
             ]
           },
@@ -123,7 +123,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
             items: [
               {
                 time: '',
-                description: 'Full day safari through the dense mangroves. Explore Dobanki Watch Tower (Canopy Walk), Pirkhali, Gazikhali, and the Five River Checkpoint (Panchamukhani). Keep your eyes peeled for wildlife!'
+                description: 'Sajnekhali (Watch Tower) → Sudhanyakhali (Watch Tower) → Dobanki (Watch Tower) → Panchamukhi → River Side View → Pirkhali → Gajikhali → Deulbari → Dhulibhasani → Back to Pakhiralay.'
               },
             ]
           },
@@ -133,7 +133,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
             items: [
               {
                 time: '',
-                description: 'Morning cruise through the Bidyadhari River. Visit the historic Hamilton Bungalow and Beacon Bungalow in Gosaba. Immerse yourself in the local village life before the return journey.'
+                description: 'Bidyadhari River → Jharkhali Park & Loknath Mandir visit → Back to Sonakhali.'
               },
             ]
           },
@@ -149,31 +149,31 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
           {
             day: 'Day 1 – Traditional Welcome Meal',
             meals: [
-              { mealType: 'Breakfast', items: 'Luchi, Aloo Dum, Boiled Egg, Sweets, Tea' },
-              { mealType: 'Snacks', items: 'Vegetable/Fish Pakora, Tea/Coffee' },
-              { mealType: 'Lunch', items: 'Steamed Rice, Dal, Bhaja, Vegetable Curry, Vetki Fish Curry, Chutney, Papad' },
-              { mealType: 'Evening', items: 'Chicken/Veg Pakora, Tea/Coffee' },
-              { mealType: 'Dinner', items: 'Jeera Rice, Mutton/Chicken Curry, Salad' }
+              { mealType: 'Welcome', items: 'Dab (Green Coconut) & Welcome Drink' },
+              { mealType: 'Breakfast', items: 'Tea, Biscuits, Kachuri, Kashmiri Aloo Dum, Joynagar Moya/Rosogolla' },
+              { mealType: '11:00 AM Snacks', items: 'Amude Fish Fry, Tea/Coffee' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Mixed Vegetables, Dahi Vetki, Chingri Malai Curry, Chatni, Papad, Fruits' },
+              { mealType: 'Evening Snacks', items: 'Coffee, Biscuits, Egg Chowmein' },
+              { mealType: 'Dinner', items: 'Rice, Dal, Fry, Desi Mutton, Salad' }
             ]
           },
           {
             day: 'Day 2 – Flavors of the Delta',
             meals: [
-              { mealType: 'Breakfast', items: 'Puri, Sabji, Boiled Egg, Tea' },
-              { mealType: 'Snacks', items: 'Biscuits, Tea/Coffee' },
-              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Local Crab/Prawn Curry (Seasonal), Fish Kalia, Chutney' },
-              { mealType: 'Evening', items: 'Chowmein, Coffee' },
+              { mealType: 'Bed Tea', items: 'Bed Tea, Biscuits' },
+              { mealType: 'Breakfast', items: 'Poori, Cholar Dal, Sweets, Tea' },
+              { mealType: '11:00 AM Snacks', items: 'French Fries OR Veg Pakoda' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Pabda Begun, Rui Macher Kaliya, Chatni, Papad' },
+              { mealType: 'Evening Snacks', items: 'Chicken Pakoda' },
               { mealType: 'Dinner', items: 'Fried Rice, Chilli Chicken, Salad' }
             ]
           },
           {
             day: 'Day 3 – Farewell Feast',
             meals: [
-              { mealType: 'Breakfast', items: 'Paratha, Sabji, Sweet, Tea' },
-              { mealType: 'Snacks', items: 'Light Snacks, Tea' },
-              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Doi Katla (Curd Fish), Chutney, Papad' },
-              { mealType: 'Evening', items: 'High Tea with Biscuits' },
-              { mealType: 'Dinner', items: 'N/A (Tour ends)' }
+              { mealType: 'Bed Tea', items: 'Bed Tea, Biscuits' },
+              { mealType: 'Breakfast', items: 'Radha Ballavi, Chana Masala, Boiled Egg/Sweet, Tea' },
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Crab Masala, Katla Masala Kari, Chatni, Papad' }
             ]
           }
         ],
@@ -274,8 +274,7 @@ export const tourPackagesPageContent: TourPackagesPageContent = {
             day: 'Day 3',
             meals: [
               { mealType: 'Breakfast', items: 'Bread Butter/Toast, Omelette, Fruits' },
-              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Fish Curry, Chutney, Papad' },
-              { mealType: 'Dinner', items: 'N/A' }
+              { mealType: 'Lunch', items: 'Rice, Dal, Fry, Fish Curry, Chutney, Papad' }
             ]
           }
         ],
